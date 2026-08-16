@@ -1,0 +1,94 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Hero Section Layout */
+.hero {
+    height: 100vh; /* Takes up the full height of the screen */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+/* Typography */
+.hero-content h1 {
+    font-size: 3.5rem;
+    color: #111;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
+
+.hero-content p {
+    font-size: 1.25rem;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+/* Call-to-Action Buttons */
+.hero-actions {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.primary-btn {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #000;
+}
+
+.primary-btn:hover {
+    background-color: #333;
+    border-color: #333;
+}
+
+.secondary-btn {
+    background-color: transparent;
+    color: #000;
+    border: 2px solid #000;
+}
+
+.secondary-btn:hover {
+    background-color: #f0f0f0;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero-content p {
+        font-size: 1.1rem;
+    }
+    
+    .hero-actions {
+        flex-direction: column;
+    }
+}
