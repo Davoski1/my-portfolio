@@ -44,38 +44,40 @@ body {
 /* Call-to-Action Buttons */
 .hero-actions {
     display: flex;
-    gap: 15px;
+    gap: 8px;
     justify-content: center;
 }
 
 .btn {
     text-decoration: none;
     padding: 12px 24px;
-    border-radius: 6px;
+    border-radius: 8px;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 500;
     transition: all 0.3s ease;
 }
 
 .primary-btn {
-    background-color: #000;
-    color: #fff;
-    border: 2px solid #000;
+    background-color: #171717;
+    color: #FFFFFF;
+    border: 1px solid #171717;
 }
 
 .primary-btn:hover {
-    background-color: #333;
-    border-color: #333;
+    background-color: #404040;
+    border-color: #404040;
+    box-shadow: 0 4px 12px #DDD6FE; 
 }
 
 .secondary-btn {
     background-color: transparent;
-    color: #000;
-    border: 2px solid #000;
+    color: #171717; /* Updated to Rich Dark Gray */
+    border: 1px solid #171717; /* Thinned to 1px */
 }
 
 .secondary-btn:hover {
-    background-color: #f0f0f0;
+    background-color: #DDD6FE; /* Swapped standard gray for Muted Lavender */
+    border-color: #DDD6FE; /* Matches the background so the border seamlessly blends in */
 }
 
 /* Mobile Responsiveness */
