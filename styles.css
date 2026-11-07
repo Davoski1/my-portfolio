@@ -29,16 +29,16 @@ body {
 
 /* Typography */
 .hero-content h1 {
-    font-size: 3.5rem;
-    color: #111;
-    margin-bottom: 20px;
+    font-size: 48px;
+    color: #171717; /* Rich Dark Gray */
+    margin-bottom: 24px;
     letter-spacing: -1px;
 }
 
 .hero-content p {
-    font-size: 1.25rem;
-    color: #555;
-    margin-bottom: 40px;
+    font-size: 16px;
+    color: #737373;
+    margin-bottom: 32px;
 }
 
 /* Call-to-Action Buttons */
