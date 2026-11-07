@@ -23,6 +23,14 @@ body {
     text-align: center;
 }
 
+.profile-pic {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 24px;
+}
+
 .hero-content {
     max-width: 800px;
 }
